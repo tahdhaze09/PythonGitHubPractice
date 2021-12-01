@@ -44,3 +44,28 @@ if('Cadillac' in my_cars):
     print('you got a Cadillac!!!')
 for car in my_cars:
     print(car)
+
+def hold_on_print():
+    print("This is being sent to the console via a function")
+
+hold_on_print()
+
+def return_values_func():
+    return "This is being returned via a function value"
+
+print(return_values_func())
+
+def return_num():
+    return 10, 3
+
+print(return_num())
+
+def whats_the_num(num):
+    return num
+
+print(whats_the_num(16))
+
+def add_nums(a, b):
+    return a + b
+
+print(add_nums(14, 62))
